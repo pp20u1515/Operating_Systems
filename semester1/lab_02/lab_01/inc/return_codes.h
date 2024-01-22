@@ -1,0 +1,28 @@
+#ifndef RETURN_CODES_H
+#define RETURN_CODES_H
+
+#define OK 0
+#define INPUT_ERROR 1
+#define AMOUNT_OF_POINTS_ERROR 2
+#define EPS_ERROR 3
+#define ZERO_ERROR 4
+#define BASE_ERROR 5
+#define MANTISSA_ERROR 6
+#define READ_ERROR 7
+#define LENGTH_ERROR 8
+#define SYMB_ERROR 9
+#define AMOUNT_OF_EPS_ERROR 10
+
+#define MAX_FLOAT_LENGTH 40
+#define MAX_MANTISSA_LENGTH 31
+#define MAX_DIGIT_AMOUNT 5
+#define EPS_EXIST 1
+#define NO_EPS 0
+#define ALLOWED_SYMBS 5
+#define AMOUNT_OF_POINTS 1
+#define AMOUNT_OF_EPS 1
+#define NUM_LENGTH 40
+#define MAX_INT_LENGTH 31
+
+
+#endif // RETURN_CODES_H
